@@ -10,5 +10,6 @@ module.exports = [
 	require('./extract-media/xml/xml-parse-string'),
 	require('./extract-media/xml/xml-parse-url'),
 	require('./extract-media/csv/csv-parse-string'),
-	require('./extract-media/csv/csv-parse-url')
+	require('./extract-media/csv/csv-parse-url'),
+	require('./extract-media/googlenews/google-news-parse'),
 ];

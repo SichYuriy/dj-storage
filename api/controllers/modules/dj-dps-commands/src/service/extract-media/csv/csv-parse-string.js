@@ -60,8 +60,7 @@ module.exports = {
         }],
         example: {
             description: "parse some csv",
-            //TODO: add example
-            code: "service.xml.parseUrl('https://www.w3schools.com/xml/note.xml')"
+            code: "service.csv.parseString('a,b,c\na,b,c')"
         }
     }
 };
